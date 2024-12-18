@@ -1,0 +1,75 @@
+    <style>body {
+        font-family: "Arial", sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .card {
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+    .card-header {
+        background-color: #6f42c1;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 12px 12px 0 0;
+        padding: 20px;
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .filter-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .filter-container select {
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .metrics-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .metric-card {
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .metric-title {
+        font-size: 1.2rem;
+        color: #333;
+    }
+
+    .metric-value {
+        font-size: 1.8rem;
+        color: #6f42c1;
+        font-weight: bold;
+    }
+
+    .chart-container {
+        margin-top: 30px;
+    }
+
+    .pie-chart-container {
+        height: 400px;
+    }
